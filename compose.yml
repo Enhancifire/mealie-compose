@@ -17,6 +17,10 @@ services:
           memory: 1000M # 
     volumes:
       - ${MEALIE_DATA}:/app/data/
+    labels:
+      tsdproxy.enable: true
+      tsdproxy.container_port: "9000"
+      tsdproxy.name: "mealie"
     environment:
       # Set Backend ENV Variables Here
       ALLOW_SIGNUP: "false"
