@@ -27,7 +27,7 @@ services:
       PUID: 568
       PGID: 568
       TZ: Asia/Kolkata
-      # BASE_URL: https://mealie.mango-catla.ts.net
+      BASE_URL: https://mealie.mango-catla.ts.net
       # BASE_URL: http://
   
   tailscale-mealie:
